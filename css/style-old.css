@@ -6,9 +6,9 @@
   padding: 24px 0;
 } */
 
-.header-logo-part {
+/* .header-logo-part {
   color: #2e2f42;
-}
+} */
 
 .footer-logo {
   display: inline-block;
@@ -26,7 +26,7 @@
 /* #endregion */
 
 /* #region Header */
-.header {
+/* .header {
   border-bottom: 1px solid #e7e9fc;
   box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
@@ -35,7 +35,7 @@
 .header-container {
   display: flex;
   justify-content: space-between;
-}
+} */
 
 /* .header-nav {
   display: flex;
@@ -95,10 +95,10 @@
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 } */
 
-.header-contacts-link:hover,
+/* .header-contacts-link:hover,
 .header-contacts-link:focus {
   color: #404bbf;
-}
+} */
 /* #endregion */
 
 /* #region Section 1 Hero */
