@@ -102,7 +102,7 @@
 /* #endregion */
 
 /* #region Section 1 Hero */
-.hero {
+/* .hero {
   background-color: #2e2f42;
   max-width: 1440px;
   margin: 0 auto;
@@ -153,7 +153,7 @@
 
 .hero-btn:focus {
   background-color: #404bbf;
-}
+} */
 /* #endregion */
 
 /* #region Section 2 Advantages*/
