@@ -46,18 +46,20 @@
             </li>
           </ul>
         </address>
-        <button class="header-burger-btn" type="button">
+        <button class="header-burger-btn" type="button" data-menu-open>
           <svg class="header-burger-icon" width="24" height="24">
             <use href="./images/icons.svg#icon-burger"></use>
           </svg>
         </button>
       </div>
-      <div class="header-mobile-menu">
+      <div class="header-mobile-menu" data-menu>
         <div class="header-mobile-menu-container container">
-          <button class="header-mobile-menu-close">Close</button>
+          <button class="header-mobile-menu-close" data-menu-close>
+            Close
+          </button>
           <nav class="header-mobile-menu-nav">Navigation</nav>
           <address>Address</address>
-          <ul></ul>
+          <div>Soc link</div>
         </div>
       </div>
     </header>
@@ -66,7 +68,9 @@
       <section class="hero section hidden">
         <div class="container">
           <h1 class="hero-title">Effective Solutions for Your Business</h1>
-          <button class="hero-btn" type="button">Order Service</button>
+          <button class="hero-btn" type="button" data-modal-open>
+            Order Service
+          </button>
         </div>
       </section>
       <!-- Section 2 Advantages -->
@@ -571,9 +575,9 @@
       </div>
     </footer>
     <!-- Modal -->
-    <div class="backdrop is-open hidden">
+    <div class="backdrop is-open hidden" data-modal>
       <div class="modal">
-        <button class="modal-close" type="button">
+        <button class="modal-close" type="button" data-modal-close>
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -653,5 +657,7 @@
         </form>
       </div>
     </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
