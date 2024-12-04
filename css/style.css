@@ -352,6 +352,9 @@ a {
   color: #434455;
   font-style: normal;
 }
+.header-mobile-contacts-link.current {
+  color: #4d5ae5;
+}
 
 .header-mobile-contacts-link:hover,
 .header-mobile-contacts-link:focus {
@@ -479,9 +482,9 @@ a {
   }
 }
 /* Retina */
-@media only screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media screen and (min-width: 768px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 768px) and (min-resolution: 192dpi),
+  screen and (min-width: 768px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -508,9 +511,9 @@ a {
   }
 }
 /* Retina */
-@media only screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
-  (min-resolution: 192dpi),
-  (min-resolution: 2dppx) {
+@media screen and (min-width: 1158px) and (min-device-pixel-ratio: 2),
+  screen and (min-width: 1158px) and (min-resolution: 192dpi),
+  screen and (min-width: 1158px) and (min-resolution: 2dppx) {
   .hero {
     background-image: linear-gradient(
         to bottom,
@@ -932,8 +935,8 @@ a {
 @media screen and (min-width: 768px) {
   .team-list {
     gap: 64px 24px;
-    padding-left: 93px;
-    padding-right: 93px;
+    padding-left: 92px;
+    padding-right: 92px;
   }
   .team-item {
     flex-basis: calc((100% - 24px) / 2);
@@ -943,6 +946,8 @@ a {
 @media screen and (min-width: 1158px) {
   .team-list {
     gap: 24px;
+    padding-left: 0;
+    padding-right: 0;
   }
   .team-item {
     flex-basis: calc((100% - 3 * 24px) / 4);
@@ -1038,7 +1043,7 @@ a {
   .portfolio-item:hover {
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
       0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  }  
+  }
 }
 /* #endregion */
 
@@ -1176,6 +1181,7 @@ a {
 
   .footer-logo-content {
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .footer-logo-text {
@@ -1184,6 +1190,7 @@ a {
 
   .footer-socials {
     align-items: flex-start;
+    margin-bottom: 0;
   }
 
   .footer-subscribe-form {
@@ -1212,12 +1219,11 @@ a {
   }
 
   .footer-logo-content {
-    margin-bottom: 0;
     margin-right: 120px;
   }
 
   .footer-socials {
-    margin-bottom: 0;
+    /* margin-bottom: 0; */
     margin-right: auto;
   }
 }
