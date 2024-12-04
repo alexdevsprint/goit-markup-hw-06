@@ -157,7 +157,7 @@
 /* #endregion */
 
 /* #region Section 2 Advantages*/
-.advantages-list {
+/* .advantages-list {
   display: flex;
   gap: 24px;
 }
@@ -189,7 +189,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-}
+} */
 /* #endregion */
 
 /* #region Section 3 Team*/
@@ -466,7 +466,7 @@
 /* #endregion */
 
 /* #region Modal */
-.backdrop {
+/* .backdrop {
   position: fixed;
   top: 0;
   left: 0;
@@ -685,6 +685,6 @@
 .modal-form-btn:hover,
 .modal-form-btn:focus {
   background-color: #404bbf;
-}
+} */
 
 /* #endregion */
